@@ -1,0 +1,155 @@
+/*****
+BODY*/
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*******
+header*/
+.navbar{
+    background: rgb(34, 34, 34);
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: rgb(133, 14, 201);
+}
+
+.nav-link{
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    border-top: 4px solid transparent;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(133, 14, 201);
+    border-bottom: 1px solid #fff;
+}
+
+li{
+    margin: 20px;
+}
+
+.btn-header{
+    border: 7px double rgb(133, 14, 201);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    bottom: 1px;
+}
+
+.btn-header:hover{
+    color: rgb(133, 14, 201);
+    border: 7px solid rgb(133, 14, 201);
+}
+
+/*****
+main*/
+main{
+    margin-top: 80px;
+}
+
+.title{
+    line-height: 12px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 56px;
+}
+
+.insc{
+    color: rgb(133, 14, 201);
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.destaque{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(133, 14, 201);
+}
+
+
+input{
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 40px;
+    background: rgb(133, 14, 201);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+i{
+    border: none;
+    color: #fff;
+}
+
+
+
+
+/***************
+cor das letras*/
+.w1:hover{
+    color: #F5A9A9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.w2:hover{
+    color: #F2F5A9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.w3:hover{
+    color: #F3F781;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.w4:hover{
+    color: #A9F5E1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.w5:hover{
+    color: #A9F5BC;
+    font-family: 'Times New Roman', Times, serif;
+}
+.w6:hover{
+    color: #E2A9F3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.w7:hover{
+    color: #A9BCF5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.w8:hover{
+    color: #F7BE81;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.w9:hover{
+    color: #81F781;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*************
+media querie*/
+
+@media(max-width:767.9px){
+   .img-fluid{
+       margin-top: 60px;
+   }
+}
